@@ -36,6 +36,9 @@ while True:
     elif opcao == "5":
         carrinho.gerar_nota_fiscal()
 
+    elif opcao == "6":
+        carrinho.listar_produtos()
+
     elif opcao == "0":
         print("Encerrando sistema...")
         break
