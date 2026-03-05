@@ -40,3 +40,11 @@ class Carrinho:
         print(f"Total: R$ {total:.2f}")
         print("======================")
 
+def listar_produtos(self):
+    if not self.produtos:
+        print("O carrinho está vazio.")
+    else:
+        print("\nProdutos no carrinho:")
+        for produto in self.produtos:
+            print(f"- {produto.nome} | R$ {produto.preco:.2f}")
+
