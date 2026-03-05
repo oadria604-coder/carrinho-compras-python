@@ -10,6 +10,7 @@ while True:
     print("3 - Aplicar desconto")
     print("4 - Ver total")
     print("5 - Gerar nota fiscal")
+    print("6 - Listar produtos")
     print("0 - Sair")
 
     opcao = input("Escolha uma opção: ")
